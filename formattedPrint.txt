@@ -1,0 +1,14 @@
+#include <iomanip>
+
+void p_formattedPrint(S_NODE *node, int indent){
+    if( NULL == node ){
+        return;
+    } else {
+        this->p_formattedPrint(node->lNext, indent+4);
+        if( indent ){
+            cout<<setw(indent)<<" ";
+        }
+        cout<<node->value<<endl;
+        this->p_formattedPrint(node->rNext, indent+4);
+    }
+}

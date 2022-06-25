@@ -1,0 +1,14 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/blackbear/DataStructureProjects/BinarySearchTree_DSW",
+            "binaryPath": "/home/blackbear/DataStructureProjects/BinarySearchTree_DSW/bst",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "cmath": "cpp",
+        "iostream": "cpp",
+        "new": "cpp"
+    }
+}

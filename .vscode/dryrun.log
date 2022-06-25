@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/blackbear/DataStructureProjects/BinarySearchTree_DSW'
+g++ -c -o customErrorClass.o -IIncludes customErrorClass.cpp
+g++ -c -o binarySearchTree.o -IIncludes Johnson_assign2.cpp
+g++ -c -o main.o -IIncludes main.cpp
+g++ -o bst customErrorClass.o binarySearchTree.o main.o -IIncludes
+make: Leaving directory '/home/blackbear/DataStructureProjects/BinarySearchTree_DSW'
+ 
